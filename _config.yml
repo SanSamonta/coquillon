@@ -21,17 +21,18 @@
 title: Les jardins de Coquillon
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Le blog des jardins potagers partagés de Coquillon, à Saint-Montan en Ardèche (07220)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 iconURL: "/assets/default-icon.png"
+
+permalink: :slug
+
 twitter_username: coquillon
 github_username:  SanSamonta
 
 # Build settings
-theme: jekyll-theme-leaf
+remote_theme: SupunKavinda/jekyll-theme-leaf
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -50,6 +51,8 @@ jekyll_admin:
 #     output: true
 #     sidebar_label: News
 
+# hyvor_talk_website_id: XXX
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -57,15 +60,15 @@ jekyll_admin:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
