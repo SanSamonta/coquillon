@@ -22,8 +22,8 @@ title: Les jardins de Coquillon
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Le blog des jardins potagers partagés de Coquillon, à Saint-Montan en Ardèche (07220)
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/coquillon"
+url: "https://sansamonta.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 iconURL: "/assets/default-icon.png"
 
 permalink: :slug
